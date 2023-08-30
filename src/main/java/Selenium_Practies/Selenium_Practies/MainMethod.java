@@ -16,11 +16,7 @@ public class MainMethod {
 	public static int tabCount = 0;
 
 	// Verify launching browser
-	@Test
-	public static void main(String[] args) throws InterruptedException {
-		Thread.sleep(2000);
-		driver.get("https://blazedemo.com/index.php");
-	}
+	
 
 	// Verifying expected title with actual title
 	@Test
